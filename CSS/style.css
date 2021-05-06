@@ -1,0 +1,42 @@
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-radius: 40px;
+  width: 750px;
+}
+
+body form .location, body form .check-in, body form .check-out, body form .guest {
+  height: 60px;
+  border-radius: 40px;
+}
+
+body form .location label, body form .check-in label, body form .check-out label, body form .guest label {
+  display: block;
+  background-color: #fff;
+  width: 150px;
+  height: 45px;
+  padding: 15px 30px 0px 30px;
+  border-radius: 40px;
+}
+
+body form .location label:hover, body form .check-in label:hover, body form .check-out label:hover, body form .guest label:hover {
+  background-color: #EBEBEB;
+}
+
+body form .location input, body form .check-in input, body form .check-out input, body form .guest input {
+  background-color: transparent;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
